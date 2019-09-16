@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.miwa.myaccounts.AccountsGraph">
+
+    <!--&lt;!&ndash;棒グラフ&ndash;&gt;-->
+    <!--<com.github.mikephil.charting.charts.BarChart-->
+        <!--android:id="@+id/bar_chart"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+
+    <!--&lt;!&ndash;レーダーチャート&ndash;&gt;-->
+    <!--<com.github.mikephil.charting.charts.RadarChart-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:id="@+id/chart"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"/>-->
+
+    <!--円グラフ-->
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pie_chart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
+    </com.github.mikephil.charting.charts.PieChart>
+
+
+</android.support.constraint.ConstraintLayout>

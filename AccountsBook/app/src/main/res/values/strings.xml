@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AccountsBook</string>
+    <string-array name="account_array">
+        <item>食費</item>
+        <item>遊休費</item>
+        <item>通販代</item>
+        <item>ローン</item>
+    </string-array>
+</resources>
